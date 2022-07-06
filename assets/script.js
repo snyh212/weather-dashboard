@@ -1,8 +1,12 @@
 var search = $("#search")
-var cityInput = $("#cityInput");
+var cityInput = $("#cityInput").html;
 
-function blue(){
-    var list = document.querySelector('#cityInput').value;
-    var txt = document.querySelector('#pSearch1').createTextNode(list);
+
+function something(){
+    var list = localStorage.setItem(list, cityInput);
+    var txt = document.querySelector('#pSearch1');
+
+    
 }
- blue();
+
+something();
