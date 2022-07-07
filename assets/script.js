@@ -39,9 +39,9 @@ search.click(function() {
             console.log(humidity);
 
             $("h2").text(cityName)
-            $("#temp").text(temperature)
-            $("#wind").text(wind)
-            $("#humidity").text(humidity)
+            $(".temp").text(temperature)
+            $(".wind").text(wind)
+            $(".humidity").text(humidity)
         });
     });
 });
