@@ -1,12 +1,16 @@
+//only runs ones page loaded
+$(document).ready(function(){
+
+
 var search = $("#search")
 var cityInput = $("#cityInput").html;
 
-
-function something(){
-    var list = localStorage.setItem(list, cityInput);
-    var txt = document.querySelector('#pSearch1');
-
     
-}
+search.click(function() {
+    var cInput = $('#cityInput').val();
+    $("ul").append("<li></li>").text(cInput)
 
-something();
+});
+    
+    
+});
